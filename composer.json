@@ -1,0 +1,18 @@
+{
+    "name": "refact-be/odoo",
+    "description": "PHP Client for the Odoo JSON-RPC",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Guillaume Smolders",
+            "email": "guillaume@refact.be"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Refact\\Odoo\\": "src/"}
+    },
+    "require": {
+      "php": "^7.0",
+      "ext-json": "*"
+    }
+}
